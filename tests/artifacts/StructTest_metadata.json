@@ -1,0 +1,116 @@
+{
+	"compiler": {
+		"version": "0.8.22+commit.4fc1097e"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [],
+				"name": "beforeEach",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "checkAddUser",
+				"outputs": [
+					{
+						"internalType": "bool",
+						"name": "",
+						"type": "bool"
+					}
+				],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "checkRemoveUser",
+				"outputs": [
+					{
+						"internalType": "bool",
+						"name": "",
+						"type": "bool"
+					}
+				],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "checkUpdateUser",
+				"outputs": [
+					{
+						"internalType": "bool",
+						"name": "",
+						"type": "bool"
+					}
+				],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"tests/user_test.sol": "StructTest"
+		},
+		"evmVersion": "shanghai",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"contracts/user.sol": {
+			"keccak256": "0xd40d1daeb6454701281ea39b8906b4a1646128bc0d656b5255ad3608bc6ee368",
+			"license": "GPL-3.0",
+			"urls": [
+				"bzz-raw://11341ecccde53586496b1844b7bd318840e631c79976564036b4526e3e482bce",
+				"dweb:/ipfs/QmRpGYCBWWTmXVjnPZRGPHsBT6PC6DvX31PKkba8uQrwk4"
+			]
+		},
+		"hardhat/console.sol": {
+			"keccak256": "0x7434453e6d3b7d0e5d0eb7846ffdbc27f0ccf3b163591263739b628074dc103a",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://49355f780520494d1d5a0f01858385e51bb5280ce0ecfb960f16995065dca395",
+				"dweb:/ipfs/QmSwJ6C5QLz6xKeQZS8wbwjU1KxRFTYfwbGmtzisd5sRW4"
+			]
+		},
+		"remix_tests.sol": {
+			"keccak256": "0xe2783cdc204cba8c72494119339f1d90f9022b15d6c718c668b7f097d8e29787",
+			"license": "GPL-3.0",
+			"urls": [
+				"bzz-raw://bb6a22e64c7f16bcaab63b1c1a1b269d5be8a6d37bdd9dec1718477ab916b18e",
+				"dweb:/ipfs/QmdkW1tT5iadBvaHMCoskhDGZKnfdg8o1D9CcoQYtdJet7"
+			]
+		},
+		"tests/user_test.sol": {
+			"keccak256": "0x2a84481aa8030ad38d978a254b68571b2db912ef0e9162bd33a441ed4ebcd77f",
+			"license": "GPL-3.0",
+			"urls": [
+				"bzz-raw://a4e76c2f91fad762583dc9171323edd40f42465ebb5a07bbd4018c2deb191040",
+				"dweb:/ipfs/QmTfatU2XVwbQ2RFkd1G6hNuL4dx3mVKrE8nmxWanKCH9v"
+			]
+		}
+	},
+	"version": 1
+}

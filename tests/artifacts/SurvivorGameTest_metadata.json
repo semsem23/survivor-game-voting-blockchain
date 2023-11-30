@@ -1,0 +1,98 @@
+{
+	"compiler": {
+		"version": "0.8.22+commit.4fc1097e"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [],
+				"name": "beforeAll",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "checkAnnounceVotedOut",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "checkInitialize",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "checkVoteOut",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"tests/SurvivorGame_test.sol": "SurvivorGameTest"
+		},
+		"evmVersion": "shanghai",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"contracts/SurvivorGame.sol": {
+			"keccak256": "0x48039b7d2c1969e80eab23ad697e8af42591aa6ce62b3a30730dfbc56f374648",
+			"license": "GPL-3.0",
+			"urls": [
+				"bzz-raw://bf37cb879b52358681fa25ebfdfbdb577f10ac44f2019a95eeb82939ff4caa0c",
+				"dweb:/ipfs/QmVTbbB9XPGpebqAkuAvCszAGw56Jj9tPqMuMmHs4gFwFo"
+			]
+		},
+		"hardhat/console.sol": {
+			"keccak256": "0x7434453e6d3b7d0e5d0eb7846ffdbc27f0ccf3b163591263739b628074dc103a",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://49355f780520494d1d5a0f01858385e51bb5280ce0ecfb960f16995065dca395",
+				"dweb:/ipfs/QmSwJ6C5QLz6xKeQZS8wbwjU1KxRFTYfwbGmtzisd5sRW4"
+			]
+		},
+		"remix_tests.sol": {
+			"keccak256": "0xe2783cdc204cba8c72494119339f1d90f9022b15d6c718c668b7f097d8e29787",
+			"license": "GPL-3.0",
+			"urls": [
+				"bzz-raw://bb6a22e64c7f16bcaab63b1c1a1b269d5be8a6d37bdd9dec1718477ab916b18e",
+				"dweb:/ipfs/QmdkW1tT5iadBvaHMCoskhDGZKnfdg8o1D9CcoQYtdJet7"
+			]
+		},
+		"tests/SurvivorGame_test.sol": {
+			"keccak256": "0xea196ffde11e7eb6b59a6dfef504c21dfbeec81ee951e9ae5886ac5920b3dab4",
+			"license": "GPL-3.0",
+			"urls": [
+				"bzz-raw://9fa09c7209fe2897a4608891976e847f3303236fecaad5534fc0c8429a7b9216",
+				"dweb:/ipfs/QmVbvJ9mA9J28NH3bh9Ddzz2vQ5FjaK5B1Zobbd3NaPyc3"
+			]
+		}
+	},
+	"version": 1
+}
